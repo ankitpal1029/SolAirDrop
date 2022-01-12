@@ -1,0 +1,21 @@
+{
+  "name": "SolAirDrop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ankitpal1029/SolAirDrop.git",
+  "author": "ankitpal1029 <ankitkumarpal27@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.4"
+  }
+}
